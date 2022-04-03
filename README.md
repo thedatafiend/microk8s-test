@@ -2,6 +2,11 @@
 
 ## Install MicroK8s for your OS distribution
 * Installation [link](https://microk8s.io/)
+* Uninstall
+    ```
+    snap disable microk8s
+    sudo snap remove microk8s
+    ```
 * Follow the steps to initialize the following services:
     1. dashboard
     1. dns
